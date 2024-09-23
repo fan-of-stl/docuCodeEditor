@@ -1,0 +1,62 @@
+.editorMainWrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.usersList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.asideHeader {
+  width: 100%;
+  height: 10%;
+  align-items: start;
+  justify-content: start;
+  margin-top: 2%;
+}
+
+.headerImage {
+  height: 100%;
+  object-fit: contain;
+}
+
+.editorWrapper {
+  background: #fff;
+}
+
+.copyRoomBtn,
+.leaveRoomBtn {
+  color: #fff;
+}
+
+.copyRoomBtn {
+  background: #3b71ca;
+}
+
+.leaveRoomBtn {
+  background: #dc4c64;
+}
+.copyRoomBtn:hover {
+  background: #275bad;
+}
+
+.leaveRoomBtn:hover {
+  background: #c93d54;
+}

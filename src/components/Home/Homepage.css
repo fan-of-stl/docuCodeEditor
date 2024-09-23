@@ -1,0 +1,80 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 1%;
+  border-radius: 2%;
+  width: 400px;
+  max-width: 90%;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label{
+    margin-bottom: .65rem;
+    margin-top: .15rem;
+}
+
+.inputBox{
+    padding: .65rem;
+    border-radius: .35rem;
+    outline: none;
+    border: none;
+    margin-bottom: .6rem;
+    font-weight: bold;
+}
+
+.joinBtn{
+    background: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.joinBtn:hover{
+    background: #0450c2;
+}
+
+.info{
+    font-size: 1rem;
+    margin-top: 1%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.newRoomAnchor{
+    text-decoration: none;
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+    transition: all 0.3s ease-in-out;
+}
+
+.newRoomAnchor:hover{
+    color: #0450c2;
+    border-bottom: 2px solid #0450c2;
+
+}

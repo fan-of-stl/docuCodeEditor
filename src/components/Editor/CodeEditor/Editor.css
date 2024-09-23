@@ -1,0 +1,27 @@
+.code-editor-wrapper {
+  padding: 1%;
+  min-height: calc(100vh - 25px);
+}
+
+.drop-down-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5%;
+  margin-bottom: 0.5%;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.drop-down {
+  background: #e1e1e2;
+  padding: 0.4%;
+  font-size: .8rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.code-editor {
+  border-radius: 0.35rem;
+}
